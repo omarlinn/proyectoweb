@@ -8,7 +8,6 @@
 			<div>
 				<input type="text" placeholder="Usuario" required="" id="username" />
 			</div>
-			ggg
 			<div>
 				<input type="password" placeholder="contraseña" required="" id="password" />
 			</div>
@@ -23,3 +22,4 @@
 		</div><!-- button -->
 	</section><!-- content -->
 </div>
+
