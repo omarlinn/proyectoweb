@@ -11,9 +11,9 @@ class  Plantilla
 	static $plantilla=null;
 
 
-	public static function plantilla()
+	public static function iniciar()
 	{
-		$plantilla =new Plantilla();
+		self::$plantilla =new Plantilla();
 
 		# code...
 	}
@@ -30,7 +30,7 @@ class  Plantilla
 <head>
 <meta charset="utf-8" />
 <title>Business Solutions</title>
-<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('businessworldtemplate/style.css');?>"  media="all" />
 </head>
 <body>
 	<div id="header">
@@ -49,7 +49,7 @@ class  Plantilla
 
 
 	}
-}
+
 
 function __destruct(){
 
@@ -100,6 +100,9 @@ function __destruct(){
 
 <?php
 }
+
+
+
 }
 
 
