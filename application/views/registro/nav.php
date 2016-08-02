@@ -24,14 +24,14 @@
     <script src="<?php echo base_url('js/jquery-migrate-1.2.1.min.js');?>"></script>
     <script src="<?php echo base_url('js/rd-smoothscroll.min.js');?>"></script>
 
-    
+
 
       <link rel="stylesheet" href="<?php echo base_url('formulario/css/reset.css');?>">
 
-    
-       
+
+
     <link rel="stylesheet" href="<?php echo base_url('formulario/css/style.css');?>">
-    
+
 
 
     <!--[if lt IE 9]>
@@ -50,6 +50,7 @@
   <!--========================================================
                             HEADER
   =========================================================-->
+    <header>
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">

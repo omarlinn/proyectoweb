@@ -141,7 +141,7 @@
               </small>
             </strong>
 
-          <a href="<?php echo base_url('Seguridad');?>" class="btn btn-primary">REGISTRATE <span class="fa-angle-right"></span></a>
+          <a href="<?php echo base_url('Seguridad');?>" class="btn btn-primary">Empieza ya <span class="fa-angle-right"></span></a>
           </div>
         </div>
       </section>

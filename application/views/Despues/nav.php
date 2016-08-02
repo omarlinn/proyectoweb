@@ -40,7 +40,9 @@
   <!--========================================================
                             HEADER
   =========================================================-->
-    <header>
+  <header>
+
+
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">
@@ -65,9 +67,6 @@
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
                 <li class="active">
                   <a href="<?php echo base_url('Site/Principal')?>">INICIO</a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
                 </li>
                 <li>
                   <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>

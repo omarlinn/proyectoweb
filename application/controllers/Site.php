@@ -45,15 +45,10 @@ class Site extends CI_Controller{
     $this->load->view('partial/footer');  }
 
     function login(){
-<<<<<<< HEAD
        $this->load->view('partial/nav');
-=======
->>>>>>> origin/omarlin
 
-      
       $this->load->view('registro/nav');
        $this->load->view('registro/login');
-<<<<<<< HEAD
 
     $this->load->view('partial/footer');  }
 
@@ -61,12 +56,9 @@ class Site extends CI_Controller{
        $this->load->view('partial/nav');
 
        $this->load->view('role/candidato');
+         $this->load->view('registro/footer');
+    }
 
-    $this->load->view('partial/footer');  }
-=======
-        $this->load->view('registro/footer');
-   
-}
->>>>>>> origin/omarlin
+
 
 }
