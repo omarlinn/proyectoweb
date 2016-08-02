@@ -70,7 +70,8 @@
                 </li>
                 <li>
                   <a href="<?php echo base_url('Candidato/About')?>">NOSOTROS</a>
-                </li>                <li class="dropdown">
+                </li>
+                <li class="dropdown">
                   <a href="">VER EMPLEOS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
                     <li>
