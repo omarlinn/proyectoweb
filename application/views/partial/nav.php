@@ -76,10 +76,10 @@
                   <a href="">REGISTRATE<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="<?php echo base_url('Site/login')?>">CANDIDATO</a>
+                      <a href="<?php echo base_url('Site/login_candidato')?>">CANDIDATO</a>
                     </li>
                     <li>
-                      <a href="#">EMPRESA</a>
+                      <a href="<?php echo base_url('Site/login_empresa');?>">EMPRESA</a>
                     </li>
 
                   </ul>

@@ -43,13 +43,18 @@ class Site extends CI_Controller{
 
 
 
-function login(){
-    $this->load->view('registro/nav');
-     $this->load->view('registro/login');
-    $this->load->view('registro/footer');  
+function login_empresa(){
+    $this->load->view('registro/empresa/nav');
+     $this->load->view('registro/empresa/login');
+    $this->load->view('registro/empresa/footer');  
 
   }
+function login_candidato(){
+    $this->load->view('registro/candidato/nav');
+     $this->load->view('registro/candidato/login');
+    $this->load->view('registro/candidato/footer');  
 
+  }
 
 
 
