@@ -7,55 +7,7 @@
     <main>
 
       <section class="well well1 well1_ins1">
-        <div class="camera_container">
-          <div id="camera" class="camera_wrap">
-            <div data-src="<?php echo base_url();?>images/page-1_slide1.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="jumbotron jumbotron1">
-                  <em>
-                    ¿Quieres Trabajar?
-                  </em>
-                  <div class="wrap">
-                    <p>
-                      Envia tu CV a las empresas<span> </span>.
-                    </p>
 
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-src="<?php echo base_url();?>images/page-1_slide2.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="jumbotron jumbotron2">
-                  <em>
-                    ¿Que tipo de trabajo Buscas?
-                  </em>
-                  <div class="wrap">
-                    <p>
-                    Tenemos todo tipo de ofertas, artes, tecnologias, ciencias, entre otras.<span> </span>.
-                    </p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-src="<?php echo base_url();?>images/page-1_slide3.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="jumbotron">
-                  <em>
-                    ¿Que estas esperando?
-                  </em>
-                  <div class="wrap">
-                    <p>
-                      Se parte de la familia<span></span>.
-                    </p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="container center991">
           <br>
