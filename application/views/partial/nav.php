@@ -40,6 +40,9 @@
   <!--========================================================
                             HEADER
   =========================================================-->
+  <header>
+
+
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">
