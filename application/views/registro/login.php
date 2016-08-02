@@ -8,19 +8,22 @@
   <!-- progressbar -->
   <ul id="progressbar">
 
-   <li>Crea tu cuenta</li>
-    <li class="active">Datos personales</li>
+   <li class="active">Crea tu cuenta</li>
+<li >Datos personales</li>
+  
+  
     <li>Datos profesionales</li>
    
   </ul>
   <!-- fieldsets -->
   <fieldset>
     <h2 class="fs-title">crea tu cuenta</h2>
-    <h3 class="fs-subtitle">edste es el paso 1</h3>
+    <h3 class="fs-subtitle">este es el paso 1</h3>
     <input type="text" name="email" placeholder="Email" />
     <input type="password" name="pass" placeholder="Contraseña" />
     <input type="password" name="cpass" placeholder="Confirmar contraseña" />
     <input type="button" name="next" class="next action-button" value="Siguiente" />
+  </fieldset>
   <fieldset>
     <h2 class="fs-title">Datos personales</h2>
     <h3 class="fs-subtitle">Registra tus datos personales</h3>
