@@ -43,7 +43,7 @@ class Site extends CI_Controller{
     $this->load->view('partial/nav');
      $this->load->view('site/about');
     $this->load->view('partial/footer');  }
-b
+
     function login(){
        
 
