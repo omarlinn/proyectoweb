@@ -7,9 +7,11 @@
 <form id="msform">
   <!-- progressbar -->
   <ul id="progressbar">
-    <li class="active">Account Setup</li>
-    <li>Social Profiles</li>
-    <li>Personal Details</li>
+
+   <li>Crea tu cuenta</li>
+    <li class="active">Datos personales</li>
+    <li>Datos profesionales</li>
+   
   </ul>
   <!-- fieldsets -->
   <fieldset>

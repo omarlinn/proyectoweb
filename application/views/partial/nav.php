@@ -70,7 +70,7 @@
                   <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
                 </li>
                 <li>
-                  <a href="<?php echo base_url('registro/login')?>">REGISTRARSE</a>
+                  <a href="<?php echo base_url('Site/login')?>">REGISTRARSE</a>
                 </li>
 
                 <li>
