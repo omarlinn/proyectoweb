@@ -44,3 +44,4 @@ class Candidato extends CI_Controller{
 
 
   }
+f
