@@ -73,6 +73,7 @@
                 </li>
 
                 <li class="dropdown">
+                
                   <a href="">REGISTRATE<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
                     <li>
