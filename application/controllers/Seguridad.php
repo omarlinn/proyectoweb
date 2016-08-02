@@ -16,7 +16,7 @@ public function __construct()
 	{
 $this->load->view('inicio/login');
 
-	}jjj
+	}
 
   function salir(){
     session_destroy();
