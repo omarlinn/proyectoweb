@@ -70,7 +70,11 @@
                   <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
                 </li>
                 <li>
+<<<<<<< HEAD
                   <a href="<?php echo base_url('Site/login')?>">REGISTRARSE</a>
+=======
+                  <a href="<?php echo base_url('Site/About')?>">REGISTRATE</a>
+>>>>>>> 20efe742ff281501353247f8302ca678bf293f8a
                 </li>
 
                 <li>
