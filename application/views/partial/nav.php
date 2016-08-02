@@ -70,10 +70,6 @@
                 </li>
 
                 <li>
-                  <a href="<?php echo base_url('site/login')?>">REGISTRATE</a>
-                </li>
-
-                <li>
                   <a href="<?php echo base_url('Site/Contact')?>">CONTACTANOS</a>
                 </li>
               </ul>

@@ -11,7 +11,7 @@ class Site extends CI_Controller{
 
   function index()
   {
-    $this->load->view('partial/nav');    
+    $this->load->view('partial/nav');
     $this->load->view('site/principal');
     $this->load->view('partial/footer');  }
 
@@ -21,34 +21,41 @@ class Site extends CI_Controller{
        $this->load->view('partial/footer');  }
 
   function contact(){
-     $this->load->view('partial/nav');   
+     $this->load->view('partial/nav');
       $this->load->view('site/contact');
       $this->load->view('partial/footer');  }
 
   function Privacy(){
-     $this->load->view('partial/nav');    
+     $this->load->view('partial/nav');
      $this->load->view('site/privacy');
      $this->load->view('partial/footer');  }
   function Principal(){
-       $this->load->view('partial/nav');    
+       $this->load->view('partial/nav');
        $this->load->view('site/principal');
       $this->load->view('partial/footer');  }
 
   function search(){
-     $this->load->view('partial/nav');   
+     $this->load->view('partial/nav');
       $this->load->view('site/search');
       $this->load->view('partial/footer');  }
 
   function About(){
-    $this->load->view('partial/nav');   
+    $this->load->view('partial/nav');
      $this->load->view('site/about');
     $this->load->view('partial/footer');  }
 
     function login(){
-       $this->load->view('partial/nav');    
+       $this->load->view('partial/nav');
 
        $this->load->view('registro/login');
-   
+
+    $this->load->view('partial/footer');  }
+
+    function profesional(){
+       $this->load->view('partial/nav');
+
+       $this->load->view('role/candidato');
+
     $this->load->view('partial/footer');  }
 
 }
