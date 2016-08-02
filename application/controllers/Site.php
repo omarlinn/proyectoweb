@@ -45,7 +45,7 @@ class Site extends CI_Controller{
     $this->load->view('partial/footer');  }
 
     function login(){
-       $this->load->view('partial/nav');
+       $this->load->view('registro/nav');
 
       $this->load->view('registro/nav');
        $this->load->view('registro/login');

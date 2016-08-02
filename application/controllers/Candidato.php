@@ -41,3 +41,6 @@ class Candidato extends CI_Controller{
     $this->load->view('Despues/nav');
      $this->load->view('site/about');
     $this->load->view('Despues/footer');  }
+
+
+  }
