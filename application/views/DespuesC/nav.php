@@ -13,10 +13,10 @@
     <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
+    <link rel="stylesheet" href="<?php echo base_url('css/contact-form.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/camera.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/search.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/google-map.css');?>">
-
 
     <!--JS-->
     <script src="<?php echo base_url('js/jquery.js');?>"></script>
@@ -66,14 +66,42 @@
             <div class="">
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
                 <li class="active">
-                  <a href="<?php echo base_url('Site/Principal')?>">INICIO</a>
+                  <a href="<?php echo base_url('Candidato/principal')?>">INICIO</a>
                 </li>
                 <li>
-                  <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
+                  <a href="<?php echo base_url('Candidato/About')?>">NOSOTROS</a>
                 </li>
+                <li class="dropdown">
+                  <a href="">VER EMPLEOS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Oferta de empleo</a>
+                    </li>
+                    <li>
+                      <a href="#">Ofertas de empleo por area</a>
+                    </li>
+                    <li>
+                      <a href="#">Activar o Dessactivar ofertas</a>
+                    </li>
+                    <li>
+                      <a href="#">Ver curriculum</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                <a href="">MI PERFIL<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Ver mi perfil</a>
+                  </li>
+                  <li>
+                    <a href="#">Ver mi Curriculum</a>
+                  </li>
 
+                </ul>
+                </li>
                 <li>
-                  <a href="<?php echo base_url('Site/Contact')?>">CONTACTANOS</a>
+                  <a href="<?php echo base_url('Candidato/contact')?>">CONTACTANOS</a>
                 </li>
               </ul>
             </div>

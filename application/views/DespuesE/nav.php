@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,6 +13,7 @@
     <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
+     <link rel="stylesheet" href="<?php echo base_url('css/contact-form.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/camera.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/search.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/google-map.css');?>">
@@ -22,15 +22,6 @@
     <script src="<?php echo base_url('js/jquery.js');?>"></script>
     <script src="<?php echo base_url('js/jquery-migrate-1.2.1.min.js');?>"></script>
     <script src="<?php echo base_url('js/rd-smoothscroll.min.js');?>"></script>
-
-
-
-      <link rel="stylesheet" href="<?php echo base_url('formulario/css/reset.css');?>">
-
-
-
-    <link rel="stylesheet" href="<?php echo base_url('formulario/css/style.css');?>">
-
 
 
     <!--[if lt IE 9]>
@@ -42,14 +33,16 @@
     </div>
     <script src="<?php echo base_url();?>js/html5shiv.js"></script>
     <![endif]-->
-    <script src="<?php echo base_url('js/device.min.js');?>" > </script>
+    <script src='<?php echo base_url('js/device.min.js');?>'></script>
   </head>
   <body>
   <div class="page">
   <!--========================================================
                             HEADER
   =========================================================-->
-    <header>
+  <header>
+
+
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">
@@ -73,18 +66,42 @@
             <div class="">
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
                 <li class="active">
-                  <a href="<?php echo base_url('Site/Principal')?>">INICIO</a>
-                </li>
-                <li>
-                  <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
+                  <a href="<?php echo base_url('Empresa/Principal')?>">INICIO</a>
                 </li>
 
                 <li>
-                  <a href="<?php echo base_url('site/login')?>">REGISTRATE</a>
+                  <a href="<?php echo base_url('Empresa/About')?>">NOSOTROS</a>
+                </li>
+                <li class="dropdown">
+                <a href="">EMPLEOS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu">
+                <li>
+                <a href="#">Publicar oferta de empleo</a>
+                </li>
+                <li>
+                <a href="#">Ver mas ofertas de empleo</a>
+                </li>
+                <li>
+                <a href="#">Activar o Dessactivar ofertas</a>
+                </li>
+                <li>
+                <a href="#">Ver curriculum</a>
+                </li>
+                </ul>
+                </li>
+                <li>
+                <a href="">MI PERFIL<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Ver mi perfil</a>
+                  </li>
+
+
+                </ul>
                 </li>
 
                 <li>
-                  <a href="<?php echo base_url('Site/Contact')?>">CONTACTANOS</a>
+                  <a href="<?php echo base_url('Empresa/contact')?>">CONTACTANOS</a>
                 </li>
               </ul>
             </div>
@@ -100,3 +117,4 @@
         </div>
 
       </div>
+    </header>

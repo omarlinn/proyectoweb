@@ -1,4 +1,4 @@
- <footer class="top-border" style="">
+  <footer class="top-border">
     <section class="well1">
       <div class="container">
             <p class="rights">
@@ -11,14 +11,10 @@
   </footer>
   </div>
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url('js/bootstrap.min.js');?>"></script>
     <script src="<?php echo base_url('js/tm-scripts.js');?>"></script>
-
-
-        <script src="<?php echo base_url('formulario/js/index.js');?>"></script>
   <!-- </script> -->
 
 
