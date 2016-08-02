@@ -11,35 +11,36 @@ class Candidato extends CI_Controller{
 
   function index()
   {
-
-    $this->load->view('DespuesC/nav');
+    $this->load->view('Despues/nav');
     $this->load->view('role/candidato');
-    $this->load->view('DespuesC/footer');  }
+    $this->load->view('Despues/footer');  }
 
 
 
   function contact(){
-     $this->load->view('DespuesC/nav');
+     $this->load->view('Despues/nav');
       $this->load->view('site/contact');
-      $this->load->view('DespuesC/footer');  }
+      $this->load->view('Despues/footer');  }
 
   function Privacy(){
-     $this->load->view('DespuesC/nav');
+     $this->load->view('Despues/nav');
      $this->load->view('site/privacy');
-     $this->load->view('DespuesC/footer');  }
+     $this->load->view('Despues/footer');  }
 
   function Principal(){
-       $this->load->view('DespuesC/nav');
+       $this->load->view('Despues/nav');
        $this->load->view('role/Candidato');
-      $this->load->view('DespuesC/footer');  }
+      $this->load->view('Despues/footer');  }
 
   function search(){
-     $this->load->view('DespuesC/nav');
+     $this->load->view('Despues/nav');
       $this->load->view('site/search');
-      $this->load->view('DespuesC/footer');  }
+      $this->load->view('Despues/footer');  }
 
   function About(){
-    $this->load->view('DespuesC/nav');
+    $this->load->view('Despues/nav');
      $this->load->view('site/about');
-    $this->load->view('DespuesC/footer');  }
-}
+    $this->load->view('Despues/footer');  }
+
+
+  }

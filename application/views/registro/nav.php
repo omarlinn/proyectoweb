@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?php echo base_url('css/search.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('css/google-map.css');?>">
 
+
     <!--JS-->
     <script src="<?php echo base_url('js/jquery.js');?>"></script>
     <script src="<?php echo base_url('js/jquery-migrate-1.2.1.min.js');?>"></script>

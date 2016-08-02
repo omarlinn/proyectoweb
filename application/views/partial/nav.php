@@ -40,9 +40,7 @@
   <!--========================================================
                             HEADER
   =========================================================-->
-  <header>
-
-
+    <header>
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">
@@ -71,9 +69,8 @@
                 <li>
                   <a href="<?php echo base_url('Site/About')?>">NOSOTROS</a>
                 </li>
-
                 <li>
-                  <a href="<?php echo base_url('site/login')?>">REGISTRATE</a>
+                  <a href="<?php echo base_url('Site/login')?>">REGISTRARSE</a>
                 </li>
 
                 <li>
